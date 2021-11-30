@@ -1,4 +1,7 @@
-
+header {
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+}
 h2,
 h4 {
     padding-top: 60px;
@@ -6,4 +9,43 @@ h4 {
 
 p {
     padding-top: 14px;
+}
+
+.image_container {
+    height: 40px;
+    object-fit: contain;
+}
+
+img {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: whitesmoke;
+    margin-top: 50px;
+    border-top: 1px solid lightgray;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.active {
+    position: relative;
+}
+
+.active::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    background-color: blue;
 }

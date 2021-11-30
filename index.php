@@ -119,7 +119,35 @@
         <title>Google FAQ</title>
     </head>
     <body>
-        <header></header>
+        <header class="sticky-top">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center mb-1 p-3">
+                    <div class="image_container me-3">
+                        <img src="img/download.png" alt="">
+                    </div>
+                    <h3>
+                        <a href="#">Privacy &amp; Termini</a>
+                    </h3>
+                </div>
+                <ul class="d-flex align-items-center py-2 ms-3">
+                    <li class="me-2">
+                        <a href="#">Introduzione</a>
+                    </li>
+                    <li class="me-2">
+                        <a href="#">Norme sulla privacy</a>
+                    </li>
+                    <li class="me-2">
+                        <a href="#">Termini di servizio</a>
+                    </li>
+                    <li class="me-2">
+                        <a href="#">Tecnologie</a>
+                    </li>
+                    <li class="me-2 active">
+                        <a href="#">Domande frequenti</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
         <main>
             <div class="container">
                 <?php
@@ -132,6 +160,31 @@
                 ?> 
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="container">
+                <div class="py-2 d-flex align-items-center">
+                    <ul class="d-flex align-items-center">
+                        <li class="me-2">
+                            <a href="#">Google</a>
+                        </li>
+                        <li class="me-2">
+                            <a href="#">Tutto su Google</a>
+                        </li>
+                        <li class="me-2">
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li class="me-2">
+                            <a href="#">Termini</a>
+                        </li>
+                    </ul>
+                    <div class="ms-auto">
+                        <select>
+                            <option value="">Italiano</option>
+                            <option value="">English</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
